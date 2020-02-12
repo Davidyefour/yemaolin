@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text">
+    <br/>
+    <button onclick="myFunction()">anwo</button>
+    <br/>
+    <button onclick="f7()">quxiao</button>
+    <br>
+    <script>
+        function myFunction() {
+        t=setTimeout(function f(){
+            var a = new Array(); 
+            var b=0;
+            for(var i=0;i<10;i++){
+                a[i]=0;
+            }
+            for(var i=0;i<20000000;i++){
+            b = parseInt(10 * Math.random());
+            a[b]=a[b]+1;
+            }    
+            for(var i=0;i<10;i++){
+            document.write(a[i]+"<br/>");
+            }
+        }, 3000);
+        console.log(2);
+        }
+        function f1(){
+            setTimeout(f2(),1000);
+            console.log(1);
+        }
+        function f2(){
+            console.log(2);
+        }
+        function f7(){
+            clearTimeout(t);
+            myFunction();
+                }
+
+        
+        
+    </script>
+</body>
+</html>

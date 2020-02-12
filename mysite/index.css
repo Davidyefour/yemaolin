@@ -1,0 +1,296 @@
+*{
+    margin:0px;
+}
+body{
+    width: 100%;
+    margin:0px auto;
+    background: linear-gradient(180deg,rgb(196,228,253),rgb(255,255,255) 60%,rgb(148,190,89));
+}
+
+h2{
+    font-size: 48px;
+    font-family:"Microsoft YaHei";
+}
+p{
+    font-size: 14px;
+}
+/*-------------------header部分---------------------------*/
+header{
+    width: 100%;
+    background-color: RGB(46,46,46);
+    height: 80px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    margin:0px;
+}
+
+.logo{
+    margin-left: 130px;
+    margin-top: 25px;
+    float: left;
+}
+
+
+
+.container >a{
+    float: left;
+}
+
+.container> nav{
+    float:right;
+    margin-right: 80px;
+}
+
+.container> nav > ul > a{
+
+    float: left;
+    line-height: 80px;
+    margin-right: 30px;
+    color : white;
+    text-decoration: none;
+    background-color: RGB(46,46,46);
+}
+
+.container> nav > ul > a:hover{
+    color:#f46208
+}
+
+
+/*-------------------banner部分---------------------------*/
+.banner{
+    width:100%;
+    height: 400px;
+    background: no-repeat;
+    background-image: url("./img/banner.jpg");
+    background-size:100% 100%; 
+    margin :0px auto;
+}
+
+.banner>article{
+    width:80%;
+    margin :auto;
+    margin-left:50px;
+    text-align: center;
+    color:white;
+    padding-top:130px;
+}
+
+
+
+/*--------------------Portfolio-----------------*/
+.Portfolio{
+    text-align: center;
+}
+.Portfolio >article{
+    width: 500px;
+    word-break: normal;
+    margin : 50px auto;
+}
+
+.Portfolio>article>h2{
+    color:#f46308;
+    margin: 20px auto;
+}
+
+.Portfolio >nav{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.Portfolio >nav>ul{
+    display:inline-flex;
+    margin:-10px auto;
+}
+
+.Portfolio >nav>ul>li{
+    display: block;
+    float: left;
+    border: 1px solid #f46308;
+    margin-right: 20px;
+    padding:3px 5px;
+}
+.Portfolio >nav>ul>li > a{ 
+    text-decoration: none;
+    color:#f46308;
+}
+
+.Portfolio >nav>ul>li:hover{
+    color:white;
+    background-color: #f46208;
+        }
+
+.Portfolio >nav>ul>li> a:hover{
+    color: white;
+}
+.Portfolio > .img{
+    margin-top:30px;
+    width: 100%;
+    height: 350px;
+}
+
+
+/*-----------S t a t s----------------------*/
+.Stats{
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+.Stats >article
+{
+    text-align: center;
+    width: 500px;
+    margin:30px auto;
+    word-break: normal;
+}
+.Stats > article >h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #f46308;
+}
+.Stats > ul {
+  margin-top: 20px;
+  display:inline-flex;
+}
+.Stats>ul>li{
+  display: block;
+  text-align: center;
+  float: left;
+  margin-right: 120px;
+}
+.Stats>ul>li>p{
+  margin:5px auto;
+}
+.Stats>ul>li>h2{
+  color:#f46308;
+}
+
+
+/*----------t e a m--------------*/
+
+.team{
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    background-color: rgb(46,46,46);
+}
+.team >article
+{
+    text-align: center;
+    width: 500px;
+    margin:30px auto;
+    word-break: normal;
+}
+.team > article >h2{
+    padding-top :30px;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #f46308;
+}
+.team p{
+    color:white;
+}
+
+.team > .imgs > ul {
+    display: inline-flex;
+}
+.team > .imgs >ul >li {
+    display: block;
+    width: 170x;
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.team > .imgs >ul >li >.img{
+    width:170px;
+    height: 160px;
+}
+.team > .imgs >ul >li>.img >img
+{
+ width:100%;
+ height: 100%;   
+}
+.team > .imgs >ul >li >.words{
+    height: 40px;
+    width :170px;
+    word-break: normal;
+}
+
+
+/*-------------C o n t a c t-----------------------*/
+.Contact{
+    text-align: center;
+    height: 550px;
+    width: 100%;
+}
+.Contact >article
+{
+    text-align: center;
+    width: 500px;
+    margin:30px auto;
+    word-break: normal;
+}
+.Contact > article >h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #f46308;
+}
+p{
+    font-size: 14px;
+}
+
+.Contact > .form{
+    width :50%;
+    height: 350px;
+    margin :10px auto;
+}
+
+.textarea{
+    cursor: pointer;
+    margin-top: 10px;
+    width:100%;
+    height: 300px;
+    word-break: normal;
+}
+
+[type="email"],[type="password"]
+{    
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    outline: 0px;
+}
+.Uname{
+    width:40%;
+    float: left;
+}
+
+.passwd{
+    width:40%;
+    float: right;
+}
+
+.submit{
+    margin-top:10px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color:#f46308;
+}
+
+/*----------------f o o t e r----------------------------*/
+footer{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+footer > p{
+    line-height: 60px;
+    color:white;
+}

@@ -1,0 +1,147 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static './index.css'%}" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="#">
+            <img class="logo" src="{%static 'img/logo.jpg'%}">
+        </a>
+        <nav class="nav">
+            <ul>
+                <a href="#">Portfolio</a>
+                <a href="#">Start</a>
+                <a href="#">team</a>
+                <a href="#">Contact Us</a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="banner">
+        <article>
+            <h2>Welcome to David's Website</h2>
+            <p>this is my little writte portfolio start tem contactus can heip you ithisnka thinks</p>
+        </article>
+</section>
+
+<section class="Portfolio">
+    <article>
+        <h2>P o r t f o l i o</h2>
+        <p> 
+            If I could save time in a bottlethe first thing that
+            I'd like to dois to save every day until eternity passes     
+        </p>
+    </article>
+    <nav>
+        <ul>
+            <div class="space"></div>
+            <li ><a href="#">ALL</a></li>
+            <li><a href="#">WHERE</a></li>
+            <li><a href="#">SOFTWARE</a></li>
+            <li><a href="#">WARING</a></li>
+            <li><a href="#">MANGER</a></li>
+        </ul>
+    </nav>
+    <div class="img">
+        <img src="{%static './img/portfolio-nav-img.jpg'%}" width="100%" height="100%">
+    </div>
+</section>
+
+<section class="Stats">
+    <article>
+        <h2>S t a  t s</h2>
+        <p>If you ever leave me baby,Leave some morphine at my door
+            To realize what we used to have we don't have it anymore
+        </p>
+    </article>
+    <ul>
+        <li>
+            <div class="img"><img src="{%static './img/stats1.jpg'%}"></div>
+            <p>Rracle</p>
+            <h2>12,000</h2>
+        </li>
+        <li>
+            <div class="img"><img src="{%static './img/stats2.jpg'%}"></div>
+            <p>Mysql</p>
+            <h2>5,681</h2>
+        </li>
+        <li>
+            <div class="img"><img src="{%static './img/stats3.jpg'%}"></div>
+            <p>Redis</p>
+            <h2>432</h2>
+        </li>
+        <li>
+            <div class="img"><img src="{%static './img/stats4.jpg'%}"></div>
+            <p>Hadoop</p>
+            <h2>86</h2>
+        </li>
+    </ul>
+</section>
+
+<section class="team">
+    <article>
+        <h2>T e a m</h2>
+        <p>If you ever leave me, baby,Leave some morphine at my door
+            To realize what we used to have we don't have it anymore
+        </p>
+    </article>
+    <div class="imgs">
+        <ul>
+            <li>
+                <div class="img"><img src="{%static './img/team1.jpg'%}"></div>
+                <div class="words">
+                <p class="name">Penny</p>
+                <p class="details">She's a pretty professional teacher</p>
+                </div> 
+           </li>
+           <li>
+            <div class="img"><img src="{%static './img/team2.jpg'%}"></div>
+            <div class="words">
+            <p class="name">John</p>
+            <p class="details">He's a pretty professional teacher</p>
+            </div> 
+            </li>
+            <li>
+                <div class="img"><img src="{%static './img/team3.jpg'%}"></div>
+                <div class="words">
+                <p class="name">Aimeejoson</p>
+                <p class="details">She's a  professional teacher</p>
+                </div> 
+           </li>
+            
+        </ul>
+    </div>
+</section>
+
+<section class="Contact">
+        <article>
+            <h2>C o n t a c t   U S</h2>
+            <p>If you ever leave me, baby,Leave some morphine at my door
+                    To realize what we used to have we don't have it anymore
+            </p>
+        </article>
+        <div class="form">
+            <form action="">
+                <input type="email" class="Uname" required  placeholder="Username">
+                <input type="password" class="passwd" required  placeholder="passwd">
+                <br>
+                <input type="text" class="textarea" placeholder="留言">
+                <br>
+                <input type="submit" value="submit" class="submit">
+            </form>
+        </div>   
+    </section>
+
+    <footer>
+        <p>@copyright by David-ye</p>
+    </footer>
+</body>
+</html>
